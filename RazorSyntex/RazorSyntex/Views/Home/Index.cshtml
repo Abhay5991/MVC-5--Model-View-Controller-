@@ -1,0 +1,39 @@
+﻿<html>
+<head>
+  
+</head>
+<body>
+    <div> 
+        Hello From Index View 
+    </div>
+    <div>
+        @DateTime.Now
+
+    </div>
+    <div>
+        @(5-3)
+    </div>
+    <div>
+        @{ 
+            var a = 1;
+            var b = 2;
+            var c = a + b;
+            var CurrentTime = DateTime.Now;
+            var TomorrowTime = DateTime.Now.AddDays(1);
+            var ColorList = new List<string>() { "Red", "Green", "Pink", "Blue" };
+
+        }
+        <div>
+            <label>@c </label><br />
+            <label> Current Time - @CurrentTime  </label><br />
+            <label> Tomorrow Time - @TomorrowTime  </label><br />
+            <label>@ColorList.FirstOrDefault() </label>
+        </div>
+    </div>
+
+    <div> abhay.kumar817@gmail.com</div>
+    <div>
+        <label> My twiter account - @@abhay_Kumar817</label>
+    </div>
+</body>
+</html>

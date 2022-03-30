@@ -1,0 +1,63 @@
+﻿@using RazorViewEngine.Models
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @for (int i = 0; i < 9; i++)
+    {
+        <div>Hello ,I am from Loop for @i  index </div>
+    }
+
+    @{
+        int MyVar = 1;
+
+    }
+
+    <div>
+
+        @{
+            var MyList = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            <text>  var MyList1 = new List<int>
+                    () { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }; </text>
+
+            Employee emp = new Employee() { Id = 1, Name = "Abhay" };
+        }
+</div>
+<div>
+
+    id =  @emp.Id  <br />
+    Name = @emp.Name
+</div>
+<div>
+
+    @foreach (var item in MyList)
+    {
+        <h1> My value is = @item</h1><br />
+    }
+
+</div>
+<div>
+    @if (MyVar == 1)
+    {
+        <h1> Hello , I am from if block 1</h1>
+    }
+    else if (MyVar == 2)
+    {
+        <h1> Hello , I am from if block 2</h1>
+    }
+    else
+    {
+        <h1> Hello , I am from else part </h1>
+    }
+
+</div>
+<hr />
+<div>
+    @(MyVar == 3 ? "Condition is true" : "condition is false")
+</div>
+</body>
+</html>

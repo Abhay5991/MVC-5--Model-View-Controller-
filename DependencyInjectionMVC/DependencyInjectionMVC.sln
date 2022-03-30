@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1831
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionMVC", "DependencyInjectionMVC\DependencyInjectionMVC.csproj", "{343659F6-5EDA-4ECA-8A5E-CA5E618C98A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DL", "DL\DL.csproj", "{4E5DF5CB-6AF0-4D40-9E39-762603C1C23D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{343659F6-5EDA-4ECA-8A5E-CA5E618C98A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343659F6-5EDA-4ECA-8A5E-CA5E618C98A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343659F6-5EDA-4ECA-8A5E-CA5E618C98A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343659F6-5EDA-4ECA-8A5E-CA5E618C98A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5DF5CB-6AF0-4D40-9E39-762603C1C23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5DF5CB-6AF0-4D40-9E39-762603C1C23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5DF5CB-6AF0-4D40-9E39-762603C1C23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5DF5CB-6AF0-4D40-9E39-762603C1C23D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DEDE95F-31FC-4EE5-9D7F-BB8420EE529A}
+	EndGlobalSection
+EndGlobal

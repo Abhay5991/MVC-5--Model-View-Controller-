@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        
+        @CustomHelper.Image("~/Image/abhay.jpeg", "Abhay")
+
+        <br />
+        <br />
+        <label>  Second Image Format</label>
+
+        @Html.Img("~/Image/abhay.jpeg", "Abhay")
+        <br />
+        <br />
+       @* <label>  Second Image Format</label><img src="~/Image/abhay.jpeg" />*@
+
+        @Html.ImgTag("~/Image/abhay.jpeg", "Abhay")
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+</head>
+<body>
+    <header style="background-color:aqua; height:100px">
+
+        <h1>This Is Header</h1>
+        @RenderSection("PageName", required: tru)
+    </header>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer style="background-color:aqua; height:100px">
+
+        <h1>This Is Footer</h1>
+    </footer>
+    <script src="AAA"></script>
+    <script src="BBB"></script>
+    <div>
+        Name - 
+        @RenderSection("RenderName", required:false)
+
+    </div>
+</body>
+</html>

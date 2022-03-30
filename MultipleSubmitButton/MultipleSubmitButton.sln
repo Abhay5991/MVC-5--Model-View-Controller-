@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1831
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleSubmitButton", "MultipleSubmitButton\MultipleSubmitButton.csproj", "{7A99323F-2753-4BC0-8168-6F64A5CEC256}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A99323F-2753-4BC0-8168-6F64A5CEC256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A99323F-2753-4BC0-8168-6F64A5CEC256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A99323F-2753-4BC0-8168-6F64A5CEC256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A99323F-2753-4BC0-8168-6F64A5CEC256}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43D26EF1-3EC0-40C3-8493-78A39EB79D34}
+	EndGlobalSection
+EndGlobal
